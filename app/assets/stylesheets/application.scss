@@ -70,6 +70,13 @@ h2 {
     color: #777;
 }
 
+h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    font-weight: normal;
+    color: #777;
+}
+
 .left {
     text-align: left;
     letter-spacing: .5px;
@@ -87,4 +94,23 @@ h2 {
 
 .gravatar {
     border-radius: 10px;
+}
+
+.well {
+    background-color: #ededed;
+}
+
+input, textarea, select, .uneditable-input {
+    border: 1px solid #d2d2d2;
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+input {
+    height: auto;
+}
+
+.jumbotron {
+    margin-top: 10px;
 }

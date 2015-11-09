@@ -1,5 +1,4 @@
-<h1>All Recipes</h1>
-<hr/ >
+<%= render 'shared/page_title', title: "All Recipe" %>
 
 <% @recipes.each do |recipe| %>
 
@@ -12,8 +11,8 @@
            </section>
        </div>
        
-       <div class=" col-lg-8 well">
-           <h4><%= link_to recipe.name, " " %></h4>
+       <div class=" col-md-10 well">
+           <h4><%= link_to recipe.name, recipe_path(recipe) %></h4>
            <p><%= recipe.summary %></p>
            <p><%= recipe.chef.email %></p>
            <p>
