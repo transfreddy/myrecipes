@@ -21,7 +21,7 @@ gem 'bcrypt', '3.1.7'
 gem 'fog'
 
 #gem 'fog-aws'
-#gem 'carrierwave', github: 'carrierwaveuploader/carrierwave'
+gem 'carrierwave', github: 'carrierwaveuploader/carrierwave'
 
 
 
