@@ -22,7 +22,7 @@ gem 'fog', "~> 1.30.0"
 gem 'carrierwave', '0.10.0'
 #gem 'fog-aws'
 #gem 'carrierwave', github: 'carrierwaveuploader/carrierwave'
-
+gem 'net-ssh'
 
 
 group :development, :test do
@@ -33,8 +33,6 @@ end
 group :production do
   gem 'pg'
   gem 'rails_12factor'
-  gem 'fog', "~> 1.30.0"
-gem 'carrierwave', '0.10.0'
 end
 
 group :development do
